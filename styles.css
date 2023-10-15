@@ -1,0 +1,85 @@
+body { margin: 0;
+  background-color: #252B48;
+
+}
+.all{
+ 
+  display: grid;
+}
+.top{
+ 
+  display: grid;
+  justify-content: center;
+}
+.title{
+  max-width: 100%;
+}
+.seasons-title{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  background-color: #F7E987;
+  color: #5B9A8B;
+}
+.seasons{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+img{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h3{
+  font-size: 2rem;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  margin: 0;
+  color: #66d9be;
+  padding: 15px;
+  background-color: #F7E987;
+  color: #5B9A8B;
+}
+span {
+  padding : 30px;
+  background : #F7E987;
+  color : #5B9A8B;
+  font-size: 1.3rem;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  cursor : pointer;
+  display: block;
+}
+.slide {
+  color : #5B9A8B;
+  font-size: 1rem;
+  font-family: 'Caveat', cursive;
+  padding: 0;
+  width:100%;
+  display: none;
+  text-align: center;
+}
+
+.slide > li{
+  padding : 20px;
+  margin-bottom: 5px;
+  background : #F7E987; 
+}
+
+li{
+  border: 2px solid #333232;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  overflow: hidden;
+}
+li:hover {
+  background-color: #f5ecac; 
+}
+#click1, #click2{
+  border: 2px solid #333232;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
